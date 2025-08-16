@@ -1,105 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yokesh Chandrasekaran | Piping Designer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yokesh Chandrasekaran — Resume</title>
+  <style>
+    :root{ --accent:#0b5fff; --muted:#666; --bg:#f7f8fb; --card:#fff; --maxw:900px; }
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:#111}
+    .container{max-width:var(--maxw);margin:28px auto;padding:28px}
+    .card{background:var(--card);border-radius:12px;padding:28px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    .header{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .name{font-size:20px;font-weight:700}
+    .meta{color:var(--muted);font-size:14px}
+    .cols{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:18px}
+    .section{margin-bottom:18px}
+    h2{font-size:14px;margin:0 0 10px 0;color:var(--accent)}
+    p{margin:6px 0;color:#222;line-height:1.45}
+    ul{margin:6px 0 6px 18px}
+    .skills, .tech{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:#f1f5ff;color:#073bdb;padding:6px 10px;border-radius:999px;font-size:13px}
+    .job{margin-bottom:12px}
+    .job-title{font-weight:600}
+    .muted{color:var(--muted);font-size:13px}
+    .contact a{color:inherit;text-decoration:none}
+    .right-card{background:linear-gradient(180deg,#fff,#fbfbff);padding:18px;border-radius:10px}
+    .small{font-size:13px}
+    @media (max-width:880px){.cols{grid-template-columns:1fr;}.right-card{order:-1}}
+  </style>
 </head>
 <body>
-
-    <header class="hero">
-        <div class="hero-content">
-            <h1 class="fade-in">Yokesh Chandrasekaran</h1>
-            <p class="fade-in delay-1">Piping Designer & Automation Developer</p>
-            <a href="Resume.pdf" class="btn fade-in delay-2" target="_blank">📄 Download Resume</a>
+  <div class="container">
+    <div class="card">
+      <div class="header">
+        <div>
+          <div class="name">Yokesh Chandrasekaran</div>
+          <div class="meta">Mechanical &amp; Piping Design Engineer</div>
         </div>
-    </header>
-
-    <section class="about fade-in">
-        <h2>About Me</h2>
-        <p>Piping Designer with 2+ years of experience in greenfield, brownfield, and as-built projects. Skilled in S3D modeling, isometric drawings, and plant layout coordination. Experience in CNC/VMC operations and CMM-based inspection from manufacturing background. Familiar with ASME, API piping codes; Developing applications using Python.</p>
-    </section>
-
-    <section class="skills fade-in">
-        <h2>Skills</h2>
-        <div class="skill-badges">
-            <span>S3D</span>
-            <span>AutoCAD</span>
-            <span>SAP</span>
-            <span>Piping Layout</span>
-            <span>Isometrics</span>
-            <span>P&ID Interpretation</span>
-            <span>Python</span>
-            <span>Java</span>
-            <span>J2EE</span>
-            <span>CNC</span>
-            <span>VMC</span>
-            <span>CMM</span>
+        <div class="contact small">
+          Chennai, India &nbsp;|&nbsp; +91 87785 59587<br />
+          <a href="mailto:yokeshchandra285@gmail.com">yokeshchandra285@gmail.com</a> &nbsp;|&nbsp;
+          <a href="https://linkedin.com/in/yokeshchandrasekaran" target="_blank" rel="noopener">linkedin.com/in/yokeshchandrasekaran</a>
         </div>
-    </section>
+      </div>
 
-    <section class="experience fade-in">
-        <h2>Experience</h2>
-        <div class="card">
-            <h3>Dexterity Design Services, Chennai | Piping Designer</h3>
-            <p><em>Jul 2023 – Present</em></p>
+      <div class="cols">
+        <main>
+          <section class="section">
+            <h2>Professional Summary</h2>
+            <p>Mechanical and Piping Design Engineer with 2+ years of experience in piping design across greenfield, brownfield, and as-built projects. Skilled in Smart 3D (S3D), isometric drawing creation, plant layout, and equipment tie-in designs. Adept at applying ASME and API standards to ensure safety and compliance in piping systems. Proven ability to automate workflows and develop custom applications using Python, improving efficiency and productivity. Seeking to contribute piping design expertise within a global engineering team.</p>
+          </section>
+
+          <section class="section">
+            <h2>Professional Experience</h2>
+
+            <div class="job">
+              <div class="job-title">Piping Designer — Dexterity Design Services, Chennai</div>
+              <div class="muted">Project: ACF-MB &amp; DM – Greenfield Piping Project | July 2023 – Present</div>
+              <ul>
+                <li>Developed over 60 piping isometric drawings using S3D software.</li>
+                <li>Coordinated with interdisciplinary teams to resolve routing conflicts.</li>
+                <li>Ensured compliance with ASME B31.3 and company specifications.</li>
+                <li>Delivered IFC deliverables with 100% schedule adherence.</li>
+                <li>Finalized equipment locations and developed layout plans.</li>
+                <li>Delivered +60% and +90% 3D model reviews and integrated stakeholder feedback.</li>
+                <li>Conducted clash checking, reviewed IDC documents, and managed MTO preparation.</li>
+                <li>Oversaw daily execution, delegated modeling work, and ensured client alignment.</li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="job-title">Piping Checker — Dexterity Design Services, Chennai</div>
+              <div class="muted">Project: SWSR – Sulphate Recovery Project - Greenfield Piping Project</div>
+              <ul>
+                <li>Performed detailed ISO checking and ensured alignment with red-marked revisions.</li>
+                <li>Coordinated and resolved internal model review comments.</li>
+                <li>Conducted clash detection and interdisciplinary coordination for resolution.</li>
+                <li>Validated MTO quantities and supported QA/QC during model review phases.</li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="job-title">Piping Designer — Dexterity Design Services, Chennai</div>
+              <div class="muted">Project: Mangala Processing Terminal – Brownfield Project</div>
+              <ul>
+                <li>Integrated new pipelines into an operational facility with strict downtime constraints.</li>
+                <li>Executed layout modifications ensuring safety compliance.</li>
+                <li>Delivered high-precision isometrics for retrofitting work.</li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="job-title">Piping Designer (As-Built) — Dexterity Design Services, Chennai</div>
+              <div class="muted">Project: Habshan – As-Built Project</div>
+              <ul>
+                <li>Acted as the Piping Focal Point for the as-built project.</li>
+                <li>Reviewed installed piping systems and updated Smart 3D models.</li>
+                <li>Supported field teams by interpreting P&amp;IDs and creating corrected layouts.</li>
+                <li>Delivered over <strong>8000</strong> piping isometrics and <strong>900+</strong> piping GADs with accuracy.</li>
+              </ul>
+            </div>
+
+          </section>
+
+          <section class="section">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Engineering — Mechanical Engineering</strong><br />Rajalakshmi Engineering College, Chennai — Graduated: Nov 2020 | GPA: 6.92/10</p>
+          </section>
+
+          <section class="section">
+            <h2>Certifications</h2>
             <ul>
-                <li>Modeled 60+ piping systems using S3D for greenfield/brownfield projects.</li>
-                <li>Ensured code compliance and collaborated with multi-discipline teams.</li>
-                <li>Delivered IFC drawings and managed as-built documentation.</li>
+              <li>Industrial Automation &amp; Robotics – MSME (2017–2018)</li>
+              <li>Industrial Robotics – AGIIT (2019)</li>
+              <li>Java &amp; J2EE (2019–2020)</li>
+              <li>Python and Django (2021)</li>
             </ul>
-        </div>
-        <div class="card">
-            <h3>Merind Automotive Pvt. Ltd., Chennai | Production Intern</h3>
-            <p><em>Feb 2022 – Jun 2023</em></p>
-            <ul>
-                <li>Operated CNC/VMC machines and conducted CMM-based QA inspections.</li>
-                <li>Supported quality team and reduced part defects by 15%.</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h3>Ashok Leyland, Chennai | Quality Inspector</h3>
-            <p><em>Nov 2021 – Feb 2022</em></p>
-            <ul>
-                <li>Audited axle assemblies, maintained defect charts via SAP.</li>
-            </ul>
-        </div>
-    </section>
+          </section>
 
-    <section class="projects fade-in">
-        <h2>Projects</h2>
-        <div class="card">
-            <strong>ACF-MB & DM (Greenfield):</strong> Routed pipes per codes and ensured layout clarity using S3D. Handled tie-ins, nozzle orientation, and construction-ready models.
-        </div>
-        <div class="card">
-            <strong>Mangala Terminal (Brownfield):</strong> Integrated new routes into legacy systems; minimized disruption.
-        </div>
-        <div class="card">
-            <strong>Habshan (As-Built):</strong> Captured site conditions and updated models accurately.
-        </div>
-    </section>
+        </main>
 
-    <section class="certifications fade-in">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Industrial Automation & Robotics – MSME</li>
-            <li>Python & Django Development – Self-paced</li>
-            <li>Java & J2EE – NIIT</li>
-        </ul>
-    </section>
+        <aside>
+          <div class="right-card">
+            <section class="section">
+              <h2>Technical Skills</h2>
+              <div class="skills">
+                <span class="chip">ASME B31.3</span>
+                <span class="chip">ANSI</span>
+                <span class="chip">API</span>
+                <span class="chip">Smart 3D (S3D)</span>
+                <span class="chip">AutoCAD</span>
+                <span class="chip">Microsoft Office</span>
+                <span class="chip">Python</span>
+                <span class="chip">Django</span>
+              </div>
+            </section>
 
-    <section class="contact fade-in">
-        <h2>Contact</h2>
-        <p>📧 <a href="mailto:yokeshchandra285@gmail.com">yokeshchandra285@gmail.com</a></p>
-        <p>📞 +91 87785 59587</p>
-        <p>📍 Chennai, India</p>
-    </section>
+            <section class="section">
+              <h2>Capabilities</h2>
+              <ul class="small">
+                <li>Piping Layout &amp; Isometric Drawing Creation</li>
+                <li>Nozzle Orientation &amp; Tie-ins</li>
+                <li>As-Built Documentation</li>
+                <li>Clash Checking &amp; Layout Optimization</li>
+                <li>Equipment Tie-in Designs</li>
+                <li>Application Development (Python)</li>
+              </ul>
+            </section>
 
-    <footer>
-        <p>© 2025 Yokesh Chandrasekaran | Built with ❤️ and hosted on GitHub Pages</p>
-    </footer>
+            <section class="section">
+              <h2>Languages</h2>
+              <p>Tamil — Native<br />English — Professional Working Proficiency</p>
+            </section>
 
+            <section class="section">
+              <h2>Declaration</h2>
+              <p class="small">I hereby declare that the information provided above is accurate to the best of my knowledge.</p>
+            </section>
+
+          </div>
+        </aside>
+      </div>
+
+      <footer style="margin-top:20px;color:var(--muted);font-size:13px">Best Regards,<br />Yokesh Chandrasekaran</footer>
+    </div>
+  </div>
 </body>
 </html>
